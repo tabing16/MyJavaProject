@@ -26,7 +26,7 @@ public class GroceryApp {
                     removeItem();
                     break;
                 case 5:
-                    searchforItem();
+                    searchForItem();
                     break;
                 case 6:
                     quit = true;
@@ -39,15 +39,29 @@ public class GroceryApp {
         System.out.println("Please enter the grocery item: ");
         groceryList.addGroceryItem(scanner.nextLine());
     }
-
     public static void modifyItem(){
         System.out.println("Enter item number: ");
         int itemNumber = scanner.nextInt();
         scanner.nextLine();
         System.out.println("Enter replacement item");
         String newItem = scanner.nextLine();
-        groceryList.modifyGroceryItem(itemNumber, newItem);
+        groceryList.modifyGroceryItem(itemNumber-1, newItem);
     }
 
+    public static void removeItem(){
+        System.out.println("Enter item number: ");
+        int itemNumber = scanner.nextInt();
+        scanner.nextLine();
+        groceryList.removeGroceryItem(itemNumber-1);
+    }
 
+    public static void searchForItem(){
+        System.out.println("Item to search for");
+        String searchItem = scanner.nextLine();
+        if(groceryList.findItem(searchItem) != null){
+            System.out.println("Found " + searchItem + " in our grocery list");
+        }else{
+            System.out.println(searchItem + " is not in the grocery list");
+        }
+    }
 }
