@@ -16,25 +16,13 @@ public class LinkedListApp {
         addInOrder(placesToVisit,"Canberra");
         addInOrder(placesToVisit,"Adelaide");
         addInOrder(placesToVisit,"Darwin");
-//        placesToVisit.add("Sydney");
-//        placesToVisit.add("Melbourne");
-//        placesToVisit.add("Brisbane");
-//        placesToVisit.add("Perth");
-//        placesToVisit.add("Canberra");
-//        placesToVisit.add("Adelaide");
-//        placesToVisit.add("Darwin");
-//
+
         printList(placesToVisit);
 
         addInOrder(placesToVisit,"Alice Springs");
 
         printList(placesToVisit);
-//
-//        placesToVisit.add(1, "Alice Springs");
-//        printList(placesToVisit);
-//
-//        placesToVisit.remove(4);
-//        printList(placesToVisit);
+
         visit(placesToVisit);
     }
 
