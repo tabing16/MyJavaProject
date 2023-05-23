@@ -1,0 +1,30 @@
+package org.example;
+
+public class NumberPalindrome {
+
+    public static void main(String[] args) {
+        if(isPalindrome(121)){
+            System.out.println("Number is Palindrome");
+        }else{
+            System.out.println("Number is not Palindrome");
+        }
+    }
+    public static boolean isPalindrome(int number){
+        int reverse = 0;
+        int lastDigit = 0;
+        int temp = number;
+        //121
+        while(number > 0){
+            lastDigit = number % 10;
+            reverse = (reverse * 10) + lastDigit;
+            //1
+
+            number = number / 10;
+
+        }
+        if(temp == reverse){
+            return true;
+        }
+        return false;
+    }
+}
