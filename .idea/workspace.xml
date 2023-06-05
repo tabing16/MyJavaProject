@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daf73cea-e819-4ac0-9f9f-b49c62862089" name="Changes" comment="Initial Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="daf73cea-e819-4ac0-9f9f-b49c62862089" name="Changes" comment="Removed Customer.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BankApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Branch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="LinkedListApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedListApp" />
       <module name="MyJavaProject" />
@@ -61,8 +65,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.main.java.Main" />
+      <module name="MyJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LinkedListApp" />
       </list>
     </recent_temporary>
@@ -81,7 +99,7 @@
       <workItem from="1666420867629" duration="1002000" />
       <workItem from="1666524704243" duration="30170000" />
       <workItem from="1685757271968" duration="58000" />
-      <workItem from="1685961442544" duration="2035000" />
+      <workItem from="1685961442544" duration="3860000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666409460702</created>
@@ -139,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667258380823</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Removed Customer.java">
+      <created>1685972897170</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1685972897170</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +183,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Removed Customer.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed Customer.java" />
   </component>
 </project>
