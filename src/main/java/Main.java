@@ -1,17 +1,28 @@
-import src.main.java.Customer;
+package src.main.java;
 
-import java.util.Scanner;
+//import src.main.java.Customer;
+//import src.main.java.LPAStudent;
 //add comment
 public class Main {
     public static void main(String[] args) {
-//        Customer customer = new Customer("Tim",1000.00, "tim@email.com");
-//        System.out.println(customer.getName());
-//        System.out.println(customer.getCreditLimit());
-//        System.out.println(customer.getEmail());
-        Dog dog1 = new Dog("Rex");
-        Dog dog2 = new Dog("Fluffy");
 
-        dog1.printName();
-        dog2.printName();
+        Animal animal = new Animal("Generic Animal","Huge", 400);
+        doAnimalStuff(animal, "slow");
+        Dog dog = new Dog();
+        doAnimalStuff(dog,"fast");
+
+        Dog yorkie = new Dog("Yorkie",15);
+        doAnimalStuff(yorkie,"fast");
+
+        Dog retriever = new Dog("Labrador Retriever",65, "Floppy", "Swimmer");
+        doAnimalStuff(retriever,"slow");
+
+    }
+
+    public static void doAnimalStuff(Animal animal, String speed){
+        animal.makeNoise();
+        animal.move(speed);
+        System.out.println(animal);
+        System.out.println("-------");
     }
 }
