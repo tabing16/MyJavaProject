@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daf73cea-e819-4ac0-9f9f-b49c62862089" name="Changes" comment="Removed Customer.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LPAStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Fish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/src/main/java/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/src/main/java/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/src/main/java/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/src/main/java/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MyJavaProject/src/main/java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MyJavaProject/src/main/java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -117,6 +120,8 @@
       <workItem from="1686123766844" duration="2606000" />
       <workItem from="1686139064569" duration="3228000" />
       <workItem from="1686307812665" duration="7943000" />
+      <workItem from="1686362587897" duration="2440000" />
+      <workItem from="1686433564424" duration="1593000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666409460702</created>
