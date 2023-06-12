@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daf73cea-e819-4ac0-9f9f-b49c62862089" name="Changes" comment="Removed Customer.java">
+    <list default="true" id="daf73cea-e819-4ac0-9f9f-b49c62862089" name="Changes" comment="Added Fish Class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +115,9 @@
       <workItem from="1686139064569" duration="3228000" />
       <workItem from="1686307812665" duration="7943000" />
       <workItem from="1686362587897" duration="2440000" />
+      <workItem from="1686433564424" duration="1593000" />
+      <workItem from="1686435650589" duration="629000" />
+      <workItem from="1686571780100" duration="296000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1666409460702</created>
@@ -198,6 +202,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Removed Customer.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed Customer.java" />
+    <MESSAGE value="Added Fish Class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Fish Class" />
   </component>
 </project>
