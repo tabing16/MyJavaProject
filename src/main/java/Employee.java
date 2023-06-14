@@ -1,10 +1,14 @@
-public class Employee extends src.main.java.Worker {
+package src.main.java;
+
+public class Employee extends Worker{
     private long employeeId;
     private String hireDate;
 
-    public Employee(String name, String birthDate, long employeeId, String hireDate) {
+    private static int employeeNo = 1;
+
+    public Employee(String name, String birthDate, String hireDate) {
         super(name, birthDate);
-        this.employeeId = employeeId;
+        this.employeeId = employeeNo++;
         this.hireDate = hireDate;
     }
 
@@ -13,7 +17,6 @@ public class Employee extends src.main.java.Worker {
         return "Employee{" +
                 "employeeId=" + employeeId +
                 ", hireDate='" + hireDate + '\'' +
-                ", endDate='" + endDate + '\'' +
-                '}';
+                "} " + super.toString();
     }
 }

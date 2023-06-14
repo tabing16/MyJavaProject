@@ -16,7 +16,8 @@ public class Worker {
     }
 
     public int getAge(){
-        return Year.now().getValue() - Integer.parseInt(this.birthDate);
+        int currentYear = 2025;
+        return currentYear - Integer.parseInt(this.birthDate.substring(6));
     }
 
     public double collectPay(){
@@ -25,7 +26,6 @@ public class Worker {
 
     public void terminate(String endDate){
         this.endDate = endDate;
-        System.out.println("Termination date: " + endDate);
     }
 
     @Override
